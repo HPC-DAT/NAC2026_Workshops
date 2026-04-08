@@ -1,0 +1,29 @@
+name: ws_hpcdat_01 
+channels:
+ - conda-forge
+dependencies:
+ - python=3.12
+ - dask
+ - fsspec
+ - gdal
+ - geopandas
+ - h5netcdf
+ - matplotlib
+ - odc-stac
+ - panel
+ - pdal
+ - python-pdal
+ - pystac
+ - pystac-client
+ - python-graphviz
+ - pip
+ - rasterio
+ - rioxarray
+ - shapely
+ - scikit-learn
+ - xarray
+ - zarr
+ - pip:
+   - dcachefs
+   - laserfarm
+   
