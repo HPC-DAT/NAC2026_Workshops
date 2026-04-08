@@ -1,29 +1,27 @@
-name: ws_hpcdat_01 
+name: ws_nac_2026 
 channels:
  - conda-forge
 dependencies:
  - python=3.12
  - dask
  - fsspec
- - gdal
  - geopandas
  - h5netcdf
+ - joblib
+ - laspy
+ - lazrs-python
  - matplotlib
+ - numpy
  - odc-stac
  - panel
- - pdal
- - python-pdal
- - pystac
  - pystac-client
  - python-graphviz
  - pip
- - rasterio
  - rioxarray
- - shapely
  - scikit-learn
+ - shapely
  - xarray
  - zarr
  - pip:
    - dcachefs
-   - laserfarm
    
